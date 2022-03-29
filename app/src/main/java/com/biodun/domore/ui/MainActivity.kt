@@ -6,13 +6,12 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.biodun.domore.R
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     private lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
         // Retrieve NavController from the NavHostFragment
         val navHostFragment =
@@ -25,8 +24,8 @@ class MainActivity : AppCompatActivity() {
         @JvmStatic
         var isNewNote = true
 
-        @JvmStatic
-        var counter = -1
+//        @JvmStatic
+//        var anyNotePresent = false
     }
 
 
