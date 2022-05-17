@@ -1,7 +1,7 @@
-package com.biodun.domore
+package com.biodun.noted
 
 import android.util.Log
-import com.biodun.domore.data.Note
+import com.biodun.noted.data.Note
 
 open class Repository() {
 

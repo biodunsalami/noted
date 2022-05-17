@@ -1,4 +1,4 @@
-package com.biodun.domore
+package com.biodun.noted
 
 import org.junit.Test
 

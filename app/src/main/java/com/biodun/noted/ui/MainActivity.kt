@@ -1,10 +1,10 @@
-package com.biodun.domore.ui
+package com.biodun.noted.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
-import com.biodun.domore.R
+import com.biodun.noted.R
 
 class MainActivity : AppCompatActivity() {
 

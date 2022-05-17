@@ -1,7 +1,6 @@
-package com.biodun.domore.ui.fragments
+package com.biodun.noted.ui.fragments
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -9,14 +8,14 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.biodun.domore.NoteAdapter
-import com.biodun.domore.NoteInterface
-import com.biodun.domore.R
-import com.biodun.domore.Repository
-import com.biodun.domore.data.Note
-import com.biodun.domore.databinding.FragmentNoteListBinding
-import com.biodun.domore.ui.MainActivity
-import com.biodun.domore.ui.MainActivity.Companion.counter
+import com.biodun.noted.NoteAdapter
+import com.biodun.noted.NoteInterface
+import com.biodun.noted.R
+import com.biodun.noted.Repository
+import com.biodun.noted.data.Note
+import com.biodun.noted.databinding.FragmentNoteListBinding
+import com.biodun.noted.ui.MainActivity
+import com.biodun.noted.ui.MainActivity.Companion.counter
 
 class NoteListFragment : Fragment(), NoteInterface {
 

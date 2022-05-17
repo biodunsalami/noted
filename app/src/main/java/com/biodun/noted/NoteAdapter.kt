@@ -1,10 +1,10 @@
-package com.biodun.domore
+package com.biodun.noted
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.biodun.domore.data.Note
-import com.biodun.domore.databinding.ItemRecyclerBinding
+import com.biodun.noted.data.Note
+import com.biodun.noted.databinding.ItemRecyclerBinding
 
 class NoteAdapter(private var notes: List<Note>,
                   private var noteInterface: NoteInterface) :

@@ -1,4 +1,4 @@
-package com.biodun.domore.data
+package com.biodun.noted.data
 
 import java.io.Serializable
 

@@ -1,4 +1,4 @@
-package com.biodun.domore
+package com.biodun.noted
 
 interface NoteInterface {
 
